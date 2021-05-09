@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : CTS_Monitor_checkDataBase.py.py
 # @Software: PyCharm
-
+# 利用FY4A SSI（DirSSI、DifSSI以及CFR云检测，进行判断）
 
 import datetime
 import os
@@ -182,6 +182,7 @@ def sending_sms(df, script_dir):
         mysql_conn.commit()
         mysql_conn.close()
         print('Sending SMS OK')
+
 
 
 if __name__ == '__main__':
