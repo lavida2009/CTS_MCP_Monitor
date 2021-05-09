@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : CTS_Monitor_checkDataBase.py.py
 # @Software: PyCharm
-
+# 利用FY4A SSI（DirSSI、DifSSI以及CFR云检测，进行判断）
 
 import datetime
 import os
